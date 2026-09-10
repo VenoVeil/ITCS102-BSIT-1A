@@ -1,19 +1,14 @@
-#Input("")
+# Write a program that calculates total shipping charges using package details, location rules, and strict conditional order
 
-prelim = float(input("Enter Prelim grade: "))
-midterm = float(input("Enter Midterm grade: "))
-semifinal = float(input("Enter Semi-Final grade: "))
-final = float(input("Enter Final grade: "))
-quiz = float(input("Enter Quiz grade: "))
-project = float(input("Enter Project grade: "))
 
-# Computing Final Grade
 
-finalgrade = (prelim * 0.15) + (midterm * 0.15) + (semifinal * 0.15) + (final * 0.15) + (quiz * 0.25) + (project * 0.15)
+name = input("Input Name ------->")
+item = string(input("Type of Item:"))
+is_fragile = bool(input("If the Item is fragile:"))
+weight = float(input("Enter Weight":))
+distance = float(input("distance of package in kilometers:"))
+is_express = bool(input("express,"True/False:"))
+is_international = bool(input(the package is from international))
 
-print("\nFinal Grade:", round(finalgrade, 2))
 
-if finalgrade >= 75:
-    print("Congratulations! You passed the course.")
-else:
-    print("Sorry, you failed.")
+
